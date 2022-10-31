@@ -1,13 +1,5 @@
-import os
-import time
 import mutagen
-import pandas as pd
-import numpy as np
-import torch
-from ftlangdetect import detect
-from huggingsound import SpeechRecognitionModel
 import whisper
-
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
 
